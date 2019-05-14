@@ -1,0 +1,32 @@
+{
+  "name": "firestore-data",
+  "version": "1.0.1",
+  "description": "This package gives you a component that makes it easy to bind your Firestore queries to your React components.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "data",
+    "react",
+    "next",
+    "nextjs"
+  ],
+  "author": "Sam Corcos <sam@corcos.io>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.1",
+    "@types/react": "^16.8.17",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
