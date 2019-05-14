@@ -22,8 +22,9 @@ import 'firebase/auth'
 import 'firebase/functions'
 import 'firebase/storage'
 
+// NOTE these are public keys. You should swap them for your own keys.
 const firebaseConfig = {
-  apiKey: 'AIzaSyBKSk6fpE4XsscB-Id2QGDthUGVZlAVHtc',
+  apiKey: 'AIzaSyBKSk6fpE4XwscB-Id2QdDthUGVZlAVHtc',
   authDomain: 'react-firebase-next.firebaseapp.com',
   databaseURL: 'https://react-firebase-next.firebaseio.com',
   projectId: 'react-firebase-next',
